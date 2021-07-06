@@ -23,6 +23,8 @@ console.log("A little about me:", me);
     created above to set its value. 
   - Console.log fullName
 */
+
+//creating a new variable named fullName and set it equal to object.firstName and object.lastName
 const fullName = `${me.firstName} ${me.lastName}`;
 
 //Console.log fullName
@@ -51,7 +53,7 @@ console.log("My current shoe count is:", me.shoeCount);
 //setting/accessing the shoeCount and adding 1 new pair of shoes to the original count
 me.shoeCount = me.shoeCount + 1;
 
-//Updated shoe count
+//Updated shoe count and login the result to the console
 console.log(
   "My current shoe count plus the new pair i just got:",
   me.shoeCount
