@@ -1,7 +1,6 @@
 console.log("***** Object Practice *****");
 
 // Add the required code to complete the tasks below
-
 /* 1. Create an object literal to represent you!
   - Give the object a 'firstName & (separate) 'lastName' property
   - Give it a boolean 'hasSiblings' property
@@ -26,6 +25,7 @@ console.log("A little about me:", me);
 */
 const fullName = `${me.firstName} ${me.lastName}`;
 
+//Console.log fullName
 console.log(fullName);
 
 /* 3. Nested arrays
@@ -48,6 +48,7 @@ console.log("My last favorite food is:", me.favThreeFood[2]);
 // log your current shoe count
 console.log("My current shoe count is:", me.shoeCount);
 
+//setting/accessing the shoeCount and adding 1 new pair of shoes to the original count
 me.shoeCount = me.shoeCount + 1;
 
 //Updated shoe count
